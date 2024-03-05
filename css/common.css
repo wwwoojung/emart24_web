@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.inner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 100px 0;
+}
+
+.default .title {
+    max-width: 1200px;
+    margin: 0 auto 32px auto;
+    padding: 0 15px;
+
+    text-align: left;
+}
+
+.default .title h2 {
+    font-size: 40px;
+    font-weight: 800;
+
+    margin: 0 0 8px 0;
+    line-height: 40px;
+}
+
+.default .title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    word-break: keep-all;
+}
+
+.default h3 {
+    font-size: 24px;
+    font-weight: 800;
+
+    margin: 0 0 8px 0;
+    line-height: 24px;
+}
+
+@media (max-width:768px) {
+    .default .title h2 {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width:500px) {
+    .default .title h2 {
+        font-size: 7vw;
+    }
+}
+
+.more_btn {
+    position: relative;
+    padding: 16px 40px;
+
+    display: inline-block;
+
+    background: #DC2F34;
+    color: #fff;
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 14px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    margin: 0 0 0 -4px;
+    white-space: nowrap;
+}
+
+.more_btn::after {
+    content: "\f1e1";
+    font-family: 'Material Symbols Outlined';
+
+    vertical-align: -2px;
+}
